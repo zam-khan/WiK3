@@ -141,6 +141,12 @@ Error message and password prompt
 
 <p>This <a class="tc-tiddlylink-external" href="https://tiddlywiki.com" rel="noopener noreferrer" target="_blank">TiddlyWiki</a> contains the following tiddlers:</p><p><ul>
 
+<li>$:/config/DefaultSidebarTab</li>
+
+<li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/close-all</li>
+
+<li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/control-panel</li>
+
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/full-screen</li>
 
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/home</li>
@@ -157,6 +163,10 @@ Error message and password prompt
 
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/print</li>
 
+<li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/save-wiki</li>
+
+<li>$:/ControlPanel</li>
+
 <li>$:/core</li>
 
 <li>$:/DefaultTiddlers</li>
@@ -170,6 +180,8 @@ Error message and password prompt
 <li>$:/SiteSubtitle</li>
 
 <li>$:/SiteTitle</li>
+
+<li>$:/state/image-picker/system--1217244810</li>
 
 <li>$:/state/peek-stylesheets/mode/--994748944</li>
 
@@ -197,6 +209,10 @@ Error message and password prompt
 
 <li>$:/state/tabs/controlpanel/toolbars-1345989671</li>
 
+<li>$:/state/toc/Contents-Journal-1843068618</li>
+
+<li>$:/state/toc/Contents-Task-1843068618</li>
+
 <li>$:/status/RequireReloadDueToPluginChange</li>
 
 <li>$:/StoryList</li>
@@ -208,6 +224,22 @@ Error message and password prompt
 <li>$:/themes/tiddlywiki/vanilla</li>
 
 <li>$:/view</li>
+
+<li>21:56 - 30th March 2021</li>
+
+<li>Completed</li>
+
+<li>Contents</li>
+
+<li>Journal</li>
+
+<li>Software</li>
+
+<li>Take out the garbage</li>
+
+<li>Task</li>
+
+<li>ToDo</li>
 
 </ul>
 </p>
@@ -223,16 +255,25 @@ Error message and password prompt
 <!--~~ Ordinary tiddlers ~~-->
 
 <div id="storeArea" style="display:none;">
-<div created="20210328011401177" modified="20210328011401177" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/full-screen">
+<div created="20210330144618621" modified="20210330144618621" title="$:/config/DefaultSidebarTab">
+<pre>Contents</pre>
+</div>
+<div created="20210330144702713" modified="20210330144702713" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/close-all">
 <pre>show</pre>
 </div>
-<div created="20210328010930516" modified="20210328010930516" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/home">
+<div created="20210330143956912" modified="20210330144538267" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/control-panel">
 <pre>show</pre>
+</div>
+<div created="20210328011401177" modified="20210330143715064" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/full-screen">
+<pre>hide</pre>
+</div>
+<div created="20210328010930516" modified="20210330144659989" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/home">
+<pre>hide</pre>
 </div>
 <div created="20210328011406537" modified="20210328011453436" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/language">
 <pre>hide</pre>
 </div>
-<div created="20210328011431721" modified="20210328011446048" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/more-page-actions">
+<div created="20210328011431721" modified="20210330144544872" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/more-page-actions">
 <pre>hide</pre>
 </div>
 <div created="20210328023556166" modified="20210328023627869" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-image">
@@ -241,11 +282,20 @@ Error message and password prompt
 <div created="20210328011752135" modified="20210328011752135" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-journal">
 <pre>show</pre>
 </div>
-<div created="20210328011745401" modified="20210328011745401" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/permaview">
+<div created="20210328011745401" modified="20210330143636077" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/permaview">
+<pre>hide</pre>
+</div>
+<div created="20210328011234845" modified="20210330143715921" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/print">
+<pre>hide</pre>
+</div>
+<div created="20210330143700660" modified="20210330143706535" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/save-wiki">
 <pre>show</pre>
 </div>
-<div created="20210328011234845" modified="20210328011234845" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/print">
-<pre>show</pre>
+<div color="#bbb" created="20210330143829967" icon="$:/core/images/options-button" modified="20210330143829967" title="$:/ControlPanel">
+<pre>&lt;div class=&quot;tc-control-panel&quot;&gt;
+&lt;$macrocall $name=&quot;tabs&quot; tabsList=&quot;[all[shadows+tiddlers]tag[$:/tags/ControlPanel]!has[draft.of]]&quot; default=&quot;$:/core/ui/ControlPanel/Info&quot; explicitState=&quot;$:/state/tab-1749438307&quot;/&gt;
+&lt;/div&gt;
+</pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="" description="TiddlyWiki5 core" list="readme" name="Core" plugin-priority="0" plugin-type="plugin" title="$:/core" type="application/json" version="5.1.23">
 <pre>{
@@ -10129,6 +10179,9 @@ Error message and password prompt
 <div created="20210328005700298" modified="20210328005830049" title="$:/SiteTitle">
 <pre>WiK3</pre>
 </div>
+<div created="20210330143424818" modified="20210330143427510" title="$:/state/image-picker/system--1217244810">
+<pre>hide</pre>
+</div>
 <div created="20210328012338566" modified="20210328012353588" title="$:/state/peek-stylesheets/mode/--994748944">
 <pre>restored</pre>
 </div>
@@ -10138,8 +10191,8 @@ Error message and password prompt
 <div created="20210328013018853" modified="20210328023345620" title="$:/state/sidebar">
 <pre>yes</pre>
 </div>
-<div created="20210328012530046" modified="20210328023700949" title="$:/state/tab--1963855381">
-<pre>$:/themes/tiddlywiki/vanilla/themetweaks</pre>
+<div created="20210328012530046" modified="20210330143444430" title="$:/state/tab--1963855381">
+<pre>$:/core/ui/ControlPanel/Toolbars</pre>
 </div>
 <div created="20210328012245509" modified="20210328012245509" title="$:/state/tab--2112689675">
 <pre>$:/core/ui/ControlPanel/Advanced</pre>
@@ -10147,14 +10200,14 @@ Error message and password prompt
 <div created="20210328024037199" modified="20210328024047166" title="$:/state/tab--86143343">
 <pre>$:/core/ui/ControlPanel/Plugins/Installed/Languages</pre>
 </div>
-<div created="20210328012308136" modified="20210328012420354" title="$:/state/tab--959111941">
-<pre>$:/core/ui/ControlPanel/Parsing</pre>
+<div created="20210328012308136" modified="20210330143319825" title="$:/state/tab--959111941">
+<pre>$:/core/ui/ControlPanel/LoadedModules</pre>
 </div>
 <div created="20210328011531519" modified="20210328011533252" title="$:/state/tab-1163638994">
 <pre>$:/core/ui/MoreSideBar/Plugins/Theme</pre>
 </div>
-<div created="20210328012430276" modified="20210328024219112" title="$:/state/tab-1749438307">
-<pre>$:/core/ui/ControlPanel/Info</pre>
+<div created="20210328012430276" modified="20210330144603281" title="$:/state/tab-1749438307">
+<pre>$:/core/ui/ControlPanel/Settings</pre>
 </div>
 <div created="20210328023916700" modified="20210328023930342" title="$:/state/tab-2065006209">
 <pre>$:/core/ui/ControlPanel/Saving/GitHub</pre>
@@ -10162,16 +10215,22 @@ Error message and password prompt
 <div created="20210328011524807" modified="20210328011613676" title="$:/state/tab/moresidebar-1850697562">
 <pre>$:/core/ui/MoreSideBar/Tags</pre>
 </div>
-<div created="20210328010912351" modified="20210328012742380" title="$:/state/tab/sidebar--595412856">
-<pre>$:/core/ui/SideBar/Open</pre>
+<div created="20210328010912351" modified="20210330145427162" title="$:/state/tab/sidebar--595412856">
+<pre>Contents</pre>
 </div>
-<div created="20210328023531089" modified="20210328023638339" title="$:/state/tabs/controlpanel/toolbars-1345989671">
-<pre>$:/core/ui/ControlPanel/Toolbars/ViewToolbar</pre>
+<div created="20210328023531089" modified="20210330143552848" title="$:/state/tabs/controlpanel/toolbars-1345989671">
+<pre>$:/core/ui/ControlPanel/Toolbars/PageControls</pre>
+</div>
+<div created="20210330145607787" modified="20210330145607787" title="$:/state/toc/Contents-Journal-1843068618">
+<pre>open</pre>
+</div>
+<div created="20210330145127478" modified="20210330145127478" title="$:/state/toc/Contents-Task-1843068618">
+<pre>open</pre>
 </div>
 <div title="$:/status/RequireReloadDueToPluginChange">
 <pre>no</pre>
 </div>
-<div created="20210328011625495" list="" modified="20210328012315488" title="$:/StoryList">
+<div created="20210330143236325" list="ToDo Completed" modified="20210330150614980" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20210328012442253" modified="20210328012523460" title="$:/theme">
@@ -10288,6 +10347,42 @@ Error message and password prompt
 </div>
 <div created="20210328012536270" modified="20210328012619078" title="$:/view">
 <pre>classic</pre>
+</div>
+<div created="20210330145530834" modified="20210330145629843" tags="Journal" title="21:56 - 30th March 2021">
+<pre>nulis sembarang nek kene</pre>
+</div>
+<div created="20210330145202728" modified="20210330152850643" tags="Task" title="Completed">
+<pre>&lt;$list filter=&quot;[!has[draft.of]tag[task]tag[done]sort[created]]&quot;&gt;
+
+&lt;$checkbox tag=&quot;done&quot;&gt; ~~&lt;$link to={{!!title}}&gt;&lt;$view field=&quot;title&quot;/&gt;&lt;/$link&gt;~~&lt;/$checkbox&gt;
+&lt;/$list&gt;</pre>
+</div>
+<div created="20210330143137823" list-before="$:/core/ui/SideBar/Open" modified="20210330145527352" tags="$:/tags/SideBar" title="Contents">
+<pre>&lt;div class=&quot;tc-table-of-contents&quot;&gt;
+&lt;&lt;toc-selective-expandable 'Contents' sort[title]&gt;&gt;
+&lt;/div&gt;</pre>
+</div>
+<div created="20210330142936515" modified="20210330144144067" tags="Contents" title="Journal">
+<pre></pre>
+</div>
+<div created="20210330145646365" modified="20210330145843782" tags="Contents" title="Software">
+<pre></pre>
+</div>
+<div created="20210330145850844" modified="20210330153229495" tags="task" title="Take out the garbage">
+<pre></pre>
+</div>
+<div created="20210330142920559" modified="20210330144219828" tags="Contents" title="Task">
+<pre></pre>
+</div>
+<div created="20210330145102286" modified="20210330153301396" tags="Task" title="ToDo">
+<pre>&lt;$list filter=&quot;[!has[draft.of]tag[task]!tag[done]sort[created]]&quot;&gt;
+
+&lt;$checkbox tag=&quot;done&quot;&gt; &lt;$link to={{!!title}}&gt;
+&lt;$view field=&quot;created&quot; format=&quot;date&quot; template=&quot;DDth mmm hh:mm&quot;/&gt; - &lt;$view field=&quot;title&quot;/&gt;
+&lt;/$link&gt;
+&lt;/$checkbox&gt;
+
+&lt;/$list&gt;</pre>
 </div>
 
 
